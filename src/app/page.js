@@ -105,9 +105,9 @@ export default function Home() {
                         <div className="aboutWiki">
                           <div className="aboutWikiText">
                             <p>
-                              At Serval, we're more than just a web development
-                              company - we're architects of digital
-                              transformation. Our mission is to empower
+                              At Serval, we&apos;re more than just a web
+                              development company - we&apos;re architects of
+                              digital transformation. Our mission is to empower
                               businesses of all sizes to thrive in the digital
                               landscape through innovative web solutions that
                               captivate audiences and drive results.
@@ -116,11 +116,11 @@ export default function Home() {
                               With a team of passionate developers, designers,
                               and strategists, we specialize in creating bespoke
                               websites and web applications that not only meet
-                              but exceed our clients' expectations. From sleek
-                              and responsive designs to powerful e-commerce
-                              platforms, we leverage cutting-edge technologies
-                              and best practices to bring our clients' visions
-                              to life.
+                              but exceed our clients&apos; expectations. From
+                              sleek and responsive designs to powerful
+                              e-commerce platforms, we leverage cutting-edge
+                              technologies and best practices to bring our
+                              clients&apos; visions to life.
                               <br />
                               <br />
                               What sets us apart is our commitment to
@@ -130,16 +130,16 @@ export default function Home() {
                               project is tailored to their unique needs and
                               objectives. Our iterative approach allows for
                               flexibility and agility, ensuring that we deliver
-                              solutions that evolve with our clients'
+                              solutions that evolve with our clients&apos;
                               businesses.
                               <br />
                               <br />
-                              Whether you're a startup looking to make your mark
-                              online or an established enterprise seeking to
-                              elevate your digital presence, Serval is here to
-                              help you succeed. Let's embark on this journey
-                              together and unleash the full potential of your
-                              digital presence.
+                              Whether you&apos;re a startup looking to make your
+                              mark online or an established enterprise seeking
+                              to elevate your digital presence, Serval is here
+                              to help you succeed. Let&apos;s embark on this
+                              journey together and unleash the full potential of
+                              your digital presence.
                             </p>
                           </div>
                           <div className="aboutWikiInfoContainer">

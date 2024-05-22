@@ -19,11 +19,11 @@ export default function About() {
         <div className={styles.content}>
           <div className={styles.introCont}>
             <p>
-              At Serval, we're more than just a web development company - we're
-              architects of digital transformation. Our mission is to empower
-              businesses of all sizes to thrive in the digital landscape through
-              innovative web solutions that captivate audiences and drive
-              results.
+              At Serval, we&apos;re more than just a web development company -
+              we&apos;re architects of digital transformation. Our mission is to
+              empower businesses of all sizes to thrive in the digital landscape
+              through innovative web solutions that captivate audiences and
+              drive results.
             </p>
           </div>
           <div className={styles.aboutWikiInfoContainer}>
@@ -113,16 +113,17 @@ export default function About() {
             <p>
               With a team of passionate developers, designers, and strategists,
               we specialize in creating bespoke websites and web applications
-              that not only meet but exceed our clients' expectations. From
+              that not only meet but exceed our clients&apos; expectations. From
               sleek and responsive designs to powerful e-commerce platforms, we
               leverage cutting-edge technologies and best practices to bring our
-              clients' visions to life.
+              clients&apos; visions to life.
               <br />
               <br />
-              Whether you're a startup looking to make your mark online or an
-              established enterprise seeking to elevate your digital presence,
-              Serval is here to help you succeed. Let's embark on this journey
-              together and unleash the full potential of your digital presence.
+              Whether you&apos;re a startup looking to make your mark online or
+              an established enterprise seeking to elevate your digital
+              presence, Serval is here to help you succeed. Let&apos;s embark on
+              this journey together and unleash the full potential of your
+              digital presence.
             </p>
           </div>
         </div>
@@ -130,9 +131,9 @@ export default function About() {
           <div className={styles.content2Cont}>
             <div className={styles.introCont}>
               <p>
-                At Serval, we're more than just a web development company -
-                we're architects of digital transformation. Our mission is to
-                empower businesses of all sizes to thrive in the digital
+                At Serval, we&apos;re more than just a web development company -
+                we&apos;re architects of digital transformation. Our mission is
+                to empower businesses of all sizes to thrive in the digital
                 landscape through innovative web solutions that captivate
                 audiences and drive results.
               </p>
@@ -142,17 +143,17 @@ export default function About() {
                 <br />
                 With a team of passionate developers, designers, and
                 strategists, we specialize in creating bespoke websites and web
-                applications that not only meet but exceed our clients'
+                applications that not only meet but exceed our clients&apos;
                 expectations. From sleek and responsive designs to powerful
                 e-commerce platforms, we leverage cutting-edge technologies and
-                best practices to bring our clients' visions to life.
+                best practices to bring our clients&apos; visions to life.
                 <br />
                 <br />
-                Whether you're a startup looking to make your mark online or an
-                established enterprise seeking to elevate your digital presence,
-                Serval is here to help you succeed. Let's embark on this journey
-                together and unleash the full potential of your digital
-                presence.
+                Whether you&apos;re a startup looking to make your mark online
+                or an established enterprise seeking to elevate your digital
+                presence, Serval is here to help you succeed. Let&apos;s embark
+                on this journey together and unleash the full potential of your
+                digital presence.
               </p>
             </div>
           </div>
