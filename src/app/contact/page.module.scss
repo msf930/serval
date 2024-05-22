@@ -1,0 +1,78 @@
+@media screen and (orientation: portrait) {
+  .main {
+    position: relative;
+    background: rgb(247, 172, 0);
+    background: linear-gradient(
+      145deg,
+      rgba(255, 156, 0, 1) 0%,
+      rgba(247, 127, 0, 1) 80%
+    );
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    overflow-y: scroll;
+  }
+  .headerCont {
+    height: auto;
+    width: 100vw;
+    text-align: center;
+
+    h1 {
+      color: black;
+      font-size: x-large;
+    }
+  }
+  .formCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+  }
+  .buffer {
+    width: 0;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    background: rgb(247, 172, 0);
+    background: linear-gradient(
+      145deg,
+      rgba(255, 156, 0, 1) 0%,
+      rgba(247, 127, 0, 1) 80%
+    );
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .cont {
+    width: 70vw;
+  }
+  .headerCont {
+    height: auto;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+
+    h1 {
+      color: black;
+      font-size: x-large;
+    }
+  }
+  .formCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    height: 70vh;
+  }
+  .buffer {
+    width: 70px;
+  }
+}

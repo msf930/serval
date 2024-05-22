@@ -1,0 +1,328 @@
+@media only screen and (min-width: 992px) {
+  .body {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+  }
+  .phone {
+    color: #000;
+    font-size: medium;
+    background: rgb(247, 172, 0);
+    background: linear-gradient(
+      145deg,
+      rgba(255, 196, 54, 1) 0%,
+      rgba(247, 174, 0, 1) 80%
+    );
+    border: 3px solid #c28900;
+    border-top: #c28900;
+    border-left: #c28900;
+    box-shadow: 10px 10px 2px #00000020;
+
+    padding: 4px 10px;
+    border-radius: 10px;
+  }
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: none;
+    color: black;
+    padding: 40px 20px;
+  }
+  .sectionR {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+    color: black;
+    padding: 20px 10px;
+  }
+  .label {
+    font-size: medium;
+  }
+  .input {
+    width: 150px;
+    height: 20px;
+    color: black;
+    font-size: medium;
+    background-color: #f77f0000;
+    border-bottom: #f77f00;
+    border: 2px solid black;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+  }
+
+  .input:focus {
+    outline: none;
+  }
+  .input:auto-fill {
+    outline: none;
+    color: #f77f00;
+    font-size: medium;
+    background-color: none;
+  }
+  .input:-webkit-autofill {
+    color: #f77f00;
+    font-size: medium;
+    background-color: none;
+    outline: none;
+  }
+  .input:-webkit-autofill:hover {
+    color: #f77f00;
+    font-size: medium;
+    background-color: none;
+    outline: none;
+  }
+  .input:-webkit-autofill:focus {
+    color: #f77f00;
+    font-size: medium;
+    background-color: none;
+    outline: none;
+  }
+  .input:-internal-autofill-selected {
+    outline: none;
+    color: #f77f00;
+    font-size: medium;
+    background-color: none;
+  }
+
+  .input[type="area"] {
+    height: 230px;
+    width: 230px;
+    resize: none;
+    margin-left: 4px;
+  }
+
+  .submit {
+    font-size: medium;
+    cursor: pointer;
+    color: #000;
+    background: rgb(247, 172, 0);
+    background: linear-gradient(
+      145deg,
+      rgba(255, 196, 54, 1) 0%,
+      rgba(247, 174, 0, 1) 80%
+    );
+    border: 3px solid #c28900;
+    border-top: #c28900;
+    border-left: #c28900;
+    box-shadow: 10px 10px 2px #00000020;
+
+    padding: 4px 10px;
+    border-radius: 10px;
+  }
+  .cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    gap: 20px;
+    height: 300px;
+    width: 600px;
+  }
+  .left {
+    height: 100%;
+    width: 100%;
+    background: rgb(247, 172, 0);
+    background: linear-gradient(
+      145deg,
+      rgba(255, 196, 54, 1) 0%,
+      rgba(247, 174, 0, 1) 80%
+    );
+    border: 3px solid #c28900;
+    border-top: #c28900;
+    border-left: #c28900;
+    border-radius: 10px;
+    box-shadow: 10px 10px 2px #00000020;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: rgb(247, 172, 0);
+    background: linear-gradient(
+      145deg,
+      rgba(255, 196, 54, 1) 0%,
+      rgba(247, 174, 0, 1) 80%
+    );
+    border: 3px solid #c28900;
+    border-top: #c28900;
+    border-left: #c28900;
+    border-radius: 10px;
+    box-shadow: 10px 10px 2px #00000020;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+  .body {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+  }
+  .phone {
+    color: #000;
+    font-size: medium;
+    background: rgb(247, 172, 0);
+    background: linear-gradient(
+      145deg,
+      rgba(255, 196, 54, 1) 0%,
+      rgba(247, 174, 0, 1) 80%
+    );
+    border: 3px solid #c28900;
+    border-top: #c28900;
+    border-left: #c28900;
+    box-shadow: 10px 10px 2px #00000020;
+
+    padding: 4px 10px;
+    border-radius: 10px;
+  }
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: none;
+    color: black;
+    padding: 20px 20px;
+  }
+  .sectionR {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+    color: black;
+    padding: 20px 10px;
+  }
+  .label {
+    font-size: medium;
+  }
+  .input {
+    width: 150px;
+    height: 20px;
+    color: black;
+    font-size: medium;
+    background-color: #f77f0000;
+    border-bottom: #f77f00;
+    border: 2px solid black;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+  }
+
+  .input:focus {
+    outline: none;
+  }
+  .input:auto-fill {
+    outline: none;
+    color: #f77f00;
+    font-size: medium;
+    background-color: none;
+  }
+  .input:-webkit-autofill {
+    color: #f77f00;
+    font-size: medium;
+    background-color: none;
+    outline: none;
+  }
+  .input:-webkit-autofill:hover {
+    color: #f77f00;
+    font-size: medium;
+    background-color: none;
+    outline: none;
+  }
+  .input:-webkit-autofill:focus {
+    color: #f77f00;
+    font-size: medium;
+    background-color: none;
+    outline: none;
+  }
+  .input:-internal-autofill-selected {
+    outline: none;
+    color: #f77f00;
+    font-size: medium;
+    background-color: none;
+  }
+
+  .input[type="area"] {
+    height: 100px;
+    width: 230px;
+    resize: none;
+    margin-left: 4px;
+  }
+
+  .submit {
+    font-size: medium;
+    cursor: pointer;
+    color: #000;
+    background: rgb(247, 172, 0);
+    background: linear-gradient(
+      145deg,
+      rgba(255, 196, 54, 1) 0%,
+      rgba(247, 174, 0, 1) 80%
+    );
+    border: 3px solid #c28900;
+    border-top: #c28900;
+    border-left: #c28900;
+    box-shadow: 10px 10px 2px #00000020;
+
+    padding: 4px 10px;
+    border-radius: 10px;
+  }
+  .cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    gap: 20px;
+    height: 200px;
+    width: 300px;
+  }
+  .left {
+    height: 100%;
+    width: 100%;
+    background: rgb(247, 172, 0);
+    background: linear-gradient(
+      145deg,
+      rgba(255, 196, 54, 1) 0%,
+      rgba(247, 174, 0, 1) 80%
+    );
+    border: 3px solid #c28900;
+    border-top: #c28900;
+    border-left: #c28900;
+    border-radius: 10px;
+    box-shadow: 10px 10px 2px #00000020;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: rgb(247, 172, 0);
+    background: linear-gradient(
+      145deg,
+      rgba(255, 196, 54, 1) 0%,
+      rgba(247, 174, 0, 1) 80%
+    );
+    border: 3px solid #c28900;
+    border-top: #c28900;
+    border-left: #c28900;
+    border-radius: 10px;
+    box-shadow: 10px 10px 2px #00000020;
+  }
+}

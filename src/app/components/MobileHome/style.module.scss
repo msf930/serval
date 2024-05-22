@@ -1,0 +1,109 @@
+@media screen and (orientation: portrait) {
+  $items: 4;
+  $transition-duration: 0.5s;
+  $transition-delay: 0.05s;
+
+  .mobileHomeCont {
+    background-color: #003049;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .mobileLogoCont {
+    position: relative;
+    text-align: center;
+    height: 80vh;
+    width: 100vw;
+    transition: $transition-duration;
+
+    &:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+
+      transition: $transition-duration;
+    }
+  }
+  .logoWMobile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    height: auto;
+  }
+
+  /* Basic styles */
+
+  .container {
+    position: relative;
+
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #003049;
+    overflow: hidden;
+  }
+}
+@media screen and (orientation: landscape) {
+  $items: 4;
+  $transition-duration: 0.5s;
+  $transition-delay: 0.05s;
+
+  .mobileHomeCont {
+    background-color: #003049;
+    position: relative;
+
+    height: 100vh;
+    width: 100vw;
+    transition: all $transition-duration;
+  }
+
+  .mobileLogoCont {
+    position: relative;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    transition: all $transition-duration;
+
+    &:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+
+      transition: all $transition-duration;
+    }
+  }
+  .logoWMobile {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    height: auto;
+    transition: all $transition-duration;
+  }
+
+  /* Basic styles */
+
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #003049;
+    overflow: hidden;
+    transition: all $transition-duration;
+  }
+}
