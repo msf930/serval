@@ -3,7 +3,7 @@ export const projects = [
     title: "FloWorks Plumbing",
     description:
       "Introducing a user-friendly website tailored for our plumbing service client, designed to streamline customer interactions and showcase their expertise.",
-    src: "FloWorks.png",
+    src: "floWorks.png",
     url: "https://floworks.vercel.app/",
     color: "#0f4c5c",
   },
