@@ -2,11 +2,12 @@
   .main {
     position: relative;
     background-color: #ffe1a8;
-    height: auto;
+    height: 110vh;
     width: 100vw;
+    overflow-y: scroll;
 
     ::-webkit-scrollbar {
-      display: block;
+      display: none;
     }
   }
   .headerCont {
@@ -26,7 +27,7 @@
     overflow-y: hidden;
     overflow-x: scroll;
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
     padding-left: 10vw;
     padding-right: 10vw;
     margin-top: 6vh;
