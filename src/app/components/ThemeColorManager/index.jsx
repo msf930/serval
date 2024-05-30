@@ -19,7 +19,10 @@ const ThemeColorManager = () => {
       };
 
       setColor(themeColors[pathname]); // Default to white if no match
-      console.log(color);
+      document
+        .querySelector('meta[name="theme-color"]')
+        .setAttribute("content", color);
+      //console.log(color);
     };
 
     // Set the initial theme color
@@ -28,7 +31,7 @@ const ThemeColorManager = () => {
 
   return (
     <Head>
-      <meta name="theme-color" content="transparent" /> {/* Default color */}
+      <meta name="theme-color" content="#003049" /> {/* Default color */}
     </Head>
   );
 };
