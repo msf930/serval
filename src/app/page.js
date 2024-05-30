@@ -1,14 +1,24 @@
+import Image from "next/image";
+
 import styles from "./page.module.scss";
+
 import { projects, numbers } from "../../src/app/data";
+
 import Card from "../app/components/Card/index";
 import Form from "../app/components/Form/index";
-
-import Image from "next/image";
+import MobileHome from "./components/MobileHome";
 
 import logoW from "../../public/servalDesignLogoSmallWhite.png";
 import logoB from "../../public/servalDesignLogoSmallBlack.png";
 import wiki from "../../public/wiki.jpeg";
-import MobileHome from "./components/MobileHome";
+
+import {
+  FaSquare,
+  FaCaretDown,
+  FaAngleDoubleDown,
+  FaAngleDown,
+} from "react-icons/fa";
+import { GoSquareFill } from "react-icons/go";
 
 export default function Home() {
   return (
@@ -73,6 +83,14 @@ export default function Home() {
                       <div className="mediaArea">
                         <section className="icon">
                           <span className="title">PORTFOLIO</span>
+                        </section>
+                        <section className="portfolioIcons">
+                          <div className="arrow1">
+                            <FaAngleDown />
+                          </div>
+                          <div className="arrow2">
+                            <FaAngleDown />
+                          </div>
                         </section>
 
                         <main className={styles.main}>

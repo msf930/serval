@@ -10,6 +10,7 @@
       display: none;
     }
   }
+
   .headerCont {
     height: auto;
     width: 100vw;
@@ -19,6 +20,17 @@
       color: black;
       font-size: x-large;
     }
+  }
+  .cont {
+    position: relative;
+  }
+  .sectionCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    width: 100vw;
   }
   .projectCont {
     display: flex;
@@ -30,7 +42,7 @@
     height: 70vh;
     padding-left: 10vw;
     padding-right: 10vw;
-    margin-top: 6vh;
+    margin-top: 0;
     gap: 10vw;
   }
   .projectCont2 {

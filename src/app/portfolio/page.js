@@ -13,38 +13,40 @@ export default function Portfolio() {
         <div className={styles.headerCont}>
           <h1>PORTFOLIO</h1>
         </div>
-        <div className={styles.projectCont}>
-          {projects.map((project, i) => {
-            const targetScale = 1 - (projects.length - i) * 0.05;
-            return (
-              <CardMobile
-                key={`p_${i}`}
-                i={i}
-                {...project}
-                range={[i * 0.25, 1]}
-                targetScale={1}
-                total={projects.length}
-              />
-            );
-          })}
-        </div>
-        <div className={styles.projectCont2}>
-          {projects.map((project, i) => {
-            const targetScale = 1 - (projects.length - i) * 0.05;
-            return (
-              <CardMobile2
-                key={`p_${i}`}
-                i={i}
-                {...project}
-                range={[i * 0.25, 1]}
-                targetScale={1}
-                total={projects.length}
-              />
-            );
-          })}
-        </div>
-        <div className={styles.icon}>
-          <MdSwipeLeft />
+        <div className={styles.sectionCont}>
+          <div className={styles.projectCont}>
+            {projects.map((project, i) => {
+              const targetScale = 1 - (projects.length - i) * 0.05;
+              return (
+                <CardMobile
+                  key={`p_${i}`}
+                  i={i}
+                  {...project}
+                  range={[i * 0.25, 1]}
+                  targetScale={1}
+                  total={projects.length}
+                />
+              );
+            })}
+          </div>
+          <div className={styles.projectCont2}>
+            {projects.map((project, i) => {
+              const targetScale = 1 - (projects.length - i) * 0.05;
+              return (
+                <CardMobile2
+                  key={`p_${i}`}
+                  i={i}
+                  {...project}
+                  range={[i * 0.25, 1]}
+                  targetScale={1}
+                  total={projects.length}
+                />
+              );
+            })}
+          </div>
+          <div className={styles.icon}>
+            <MdSwipeLeft />
+          </div>
         </div>
       </div>
       <div className={styles.buffer}></div>
