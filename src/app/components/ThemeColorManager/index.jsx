@@ -22,12 +22,9 @@ const ThemeColorManager = () => {
 
     handleRouteChange(pathname);
   }, [pathname, color]);
-
-  return (
-    <Head>
-      <meta name="theme-color" content={color} />
-    </Head>
-  );
+  console.log(`Current color is: ${color}`);
+  console.log(`Pathname: ${pathname}`);
+  return <meta name="theme-color" content={color} />;
 };
 
 export default ThemeColorManager;
