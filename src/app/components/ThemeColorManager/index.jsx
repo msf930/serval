@@ -9,7 +9,7 @@ const ThemeColorManager = () => {
   const [color, setColor] = useState("#003049");
 
   useEffect(() => {
-    const handleRouteChange = (url) => {
+    const handleRouteChange = (pathname) => {
       // Define theme colors for specific routes
       const themeColors = {
         "/": "#003049",
@@ -18,8 +18,8 @@ const ThemeColorManager = () => {
         "/contact": "#fc9827",
       };
 
-      setColor(themeColors[url]); // Default to white if no match
-      console.log(color);
+      setColor(themeColors[pathname]); // Default to white if no match
+      console.log(pathname);
     };
 
     // Set the initial theme color
