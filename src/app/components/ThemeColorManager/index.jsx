@@ -22,8 +22,7 @@ const ThemeColorManager = () => {
 
     handleRouteChange(pathname);
   }, [pathname, color]);
-  console.log(`Current color is: ${color}`);
-  console.log(`Pathname: ${pathname}`);
+
   return <meta name="theme-color" content={color} />;
 };
 
