@@ -13,13 +13,13 @@ const ThemeColorManager = () => {
       // Define theme colors for specific routes
       const themeColors = {
         "/": "#003049",
-        "/about": "#fcbf49",
-        "/portfolio": "#ffe1a8",
-        "/contact": "#fc9827",
+        "/about": "#FCBF49",
+        "/portfolio": "#FFE1A8",
+        "/contact": "#FC9827",
       };
 
       setColor(themeColors[pathname]); // Default to white if no match
-      console.log(pathname);
+      console.log(color);
     };
 
     // Set the initial theme color
@@ -28,7 +28,7 @@ const ThemeColorManager = () => {
 
   return (
     <Head>
-      <meta name="theme-color" content={color} /> {/* Default color */}
+      <meta name="theme-color" content="transparent" /> {/* Default color */}
     </Head>
   );
 };
