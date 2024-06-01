@@ -1,5 +1,8 @@
 import styles from "./page.module.scss";
+
 import MobileNav2 from "../components/MobileNav2";
+import AboutAccordion from "../components/AboutAccordion";
+
 import Image from "next/image";
 
 import wiki from "../../../public/wiki.jpeg";
@@ -126,6 +129,7 @@ export default function About() {
               digital presence.
             </p>
           </div>
+          <AboutAccordion />
         </div>
         <div className={styles.content2}>
           <div className={styles.content2Cont}>

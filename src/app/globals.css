@@ -366,9 +366,10 @@
   .aboutWiki {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    align-items: start;
   }
   .aboutWikiText {
-    padding: 0 30px;
+    padding: 0 0 0 30px;
     color: black;
     font-family: sans-serif;
   }
@@ -443,6 +444,19 @@
   }
   .aboutWikiClassLeft {
     width: 40%;
+  }
+  .wikiSubTitle {
+    padding: 30px 0;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .aboutWikiSubLine {
+    margin: 0;
+    border: 0.5px solid black;
+    margin-bottom: 15px;
   }
   .aboutBottom {
     height: 20vh;
@@ -856,9 +870,10 @@
   .aboutWiki {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    align-items: start;
   }
   .aboutWikiText {
-    padding: 0 30px;
+    padding: 0 0 0 30px;
     color: black;
     font-family: sans-serif;
   }
@@ -933,6 +948,19 @@
   }
   .aboutWikiClassLeft {
     width: 40%;
+  }
+  .wikiSubTitle {
+    padding: 30px 0;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .aboutWikiSubLine {
+    margin: 0;
+    border: 0.5px solid black;
+    margin-bottom: 15px;
   }
   .aboutBottom {
     height: 20vh;
@@ -1304,9 +1332,10 @@
   .aboutWiki {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    align-items: start;
   }
   .aboutWikiText {
-    padding: 0 30px;
+    padding: 0 0 0 30px;
     color: black;
     font-family: sans-serif;
     font-size: small;
@@ -1383,6 +1412,19 @@
   }
   .aboutWikiClassLeft {
     width: 50%;
+  }
+  .wikiSubTitle {
+    padding: 30px 0;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .aboutWikiSubLine {
+    margin: 0;
+    border: 0.5px solid black;
+    margin-bottom: 15px;
   }
   .aboutBottom {
     height: 20vh;
