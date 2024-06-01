@@ -364,9 +364,7 @@
   }
 
   .aboutWiki {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    align-items: start;
+    display: block;
   }
   .aboutWikiText {
     padding: 0 0 0 30px;
@@ -374,9 +372,12 @@
     font-family: sans-serif;
   }
   .aboutWikiInfoContainer {
+    float: right;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 30vw;
+    padding: 0 0 20px 0;
   }
   .wikiTitle {
     padding: 30px;
@@ -868,9 +869,7 @@
   }
 
   .aboutWiki {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    align-items: start;
+    display: block;
   }
   .aboutWikiText {
     padding: 0 0 0 30px;
@@ -878,9 +877,12 @@
     font-family: sans-serif;
   }
   .aboutWikiInfoContainer {
+    float: right;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 30vw;
+    padding: 0 0 20px 0;
   }
   .wikiTitle {
     padding: 30px;
@@ -1330,9 +1332,7 @@
   }
 
   .aboutWiki {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    align-items: start;
+    display: block;
   }
   .aboutWikiText {
     padding: 0 0 0 30px;
@@ -1341,9 +1341,12 @@
     font-size: small;
   }
   .aboutWikiInfoContainer {
+    float: right;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 30vw;
+    padding: 0 0 20px 0;
   }
   .wikiTitle {
     padding: 30px;

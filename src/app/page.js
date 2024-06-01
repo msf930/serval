@@ -116,6 +116,59 @@ export default function Home() {
                         </div>
                         <div className="aboutWiki">
                           <div className="aboutWikiText">
+                            <div className="aboutWikiInfoContainer">
+                              <div className="aboutWikiInfo">
+                                <h3>Serval</h3>
+                                <Image
+                                  src={wiki}
+                                  alt="cat"
+                                  priority={true}
+                                  className="p-3"
+                                />
+                                <h4>A serval in Serengeti National Park</h4>
+                                <h3>Conservation status</h3>
+                                <div className="flex justify-evenly">
+                                  <div className="wikiCircle">EX</div>
+                                  <div className="wikiCircle">EW</div>
+                                  <div className="wikiCircle">CR</div>
+                                  <div className="wikiCircle">EN</div>
+                                  <div className="wikiCircle">VU</div>
+                                  <div className="wikiCircle">NT</div>
+                                  <div className="wikiCircle2">LC</div>
+                                </div>
+                                <h4>Least Concern (IUCN 3.1)</h4>
+                                <h4>CITES Appendix II (CITES)</h4>
+                                <h3>Scientific classification</h3>
+                                <div className="aboutWikiClass">
+                                  <div className="aboutWikiClassLeft">
+                                    <p>Domain: </p>
+                                    <p>Kingdom: </p>
+                                    <p>Phylum: </p>
+                                    <p>Class: </p>
+                                    <p>Order: </p>
+                                    <p>Suborder: </p>
+                                    <p>Family: </p>
+                                    <p>Subfamily: </p>
+                                    <p>Genus: </p>
+                                    <p>Species: </p>
+                                  </div>
+                                  <div>
+                                    <p>Eukaryota</p>
+                                    <p>Animalia</p>
+                                    <p>Chordata</p>
+                                    <p>Mammalia</p>
+                                    <p>Carnivora</p>
+                                    <p>Feliformia</p>
+                                    <p>Felidae</p>
+                                    <p>Felinae</p>
+                                    <p>Leptailurus</p>
+                                    <p>L. serval</p>
+                                  </div>
+                                </div>
+                                <h3>Binomial name</h3>
+                                <h4>Leptailurus serval</h4>
+                              </div>
+                            </div>
                             <p>
                               At Serval, we&apos;re more than just a web
                               development company - we&apos;re architects of
@@ -222,59 +275,6 @@ export default function Home() {
                                   </p>
                                 </li>
                               </ul>
-                            </div>
-                          </div>
-                          <div className="aboutWikiInfoContainer">
-                            <div className="aboutWikiInfo">
-                              <h3>Serval</h3>
-                              <Image
-                                src={wiki}
-                                alt="cat"
-                                priority={true}
-                                className="p-3"
-                              />
-                              <h4>A serval in Serengeti National Park</h4>
-                              <h3>Conservation status</h3>
-                              <div className="flex justify-evenly">
-                                <div className="wikiCircle">EX</div>
-                                <div className="wikiCircle">EW</div>
-                                <div className="wikiCircle">CR</div>
-                                <div className="wikiCircle">EN</div>
-                                <div className="wikiCircle">VU</div>
-                                <div className="wikiCircle">NT</div>
-                                <div className="wikiCircle2">LC</div>
-                              </div>
-                              <h4>Least Concern (IUCN 3.1)</h4>
-                              <h4>CITES Appendix II (CITES)</h4>
-                              <h3>Scientific classification</h3>
-                              <div className="aboutWikiClass">
-                                <div className="aboutWikiClassLeft">
-                                  <p>Domain: </p>
-                                  <p>Kingdom: </p>
-                                  <p>Phylum: </p>
-                                  <p>Class: </p>
-                                  <p>Order: </p>
-                                  <p>Suborder: </p>
-                                  <p>Family: </p>
-                                  <p>Subfamily: </p>
-                                  <p>Genus: </p>
-                                  <p>Species: </p>
-                                </div>
-                                <div>
-                                  <p>Eukaryota</p>
-                                  <p>Animalia</p>
-                                  <p>Chordata</p>
-                                  <p>Mammalia</p>
-                                  <p>Carnivora</p>
-                                  <p>Feliformia</p>
-                                  <p>Felidae</p>
-                                  <p>Felinae</p>
-                                  <p>Leptailurus</p>
-                                  <p>L. serval</p>
-                                </div>
-                              </div>
-                              <h3>Binomial name</h3>
-                              <h4>Leptailurus serval</h4>
                             </div>
                           </div>
                         </div>
