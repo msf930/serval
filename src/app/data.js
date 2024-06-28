@@ -1,11 +1,19 @@
 export const projects = [
   {
+    title: "Savvy. B Studio & Collective",
+    description:
+      "Explore our user-friendly website to find and book the perfect modern salon rental space, complete with amenities and flexible terms to meet all your professional needs.",
+    src: "savvyB.png",
+    url: "https://savvyb-five.vercel.app/",
+    color: "#0f4c5c",
+  },
+  {
     title: "FloWorks Plumbing",
     description:
       "Introducing a user-friendly website tailored for our plumbing service client, designed to streamline customer interactions and showcase their expertise.",
     src: "floWorks.png",
     url: "https://floworks.vercel.app/",
-    color: "#0f4c5c",
+    color: "#9a031e",
   },
   {
     title: "Yusha.ai",
@@ -13,7 +21,7 @@ export const projects = [
       "Yusha.ai is a cutting-edge website tailored to showcase our client's AI animation software tool. With sleek design and intuitive navigation, users can easily explore features and benefits.",
     src: "yusha.jpg",
     url: "https://www.yusha.ai/",
-    color: "#9a031e",
+    color: "#fb8b24",
   },
   {
     title: "National Construction",
@@ -21,7 +29,7 @@ export const projects = [
       "National Construction is a robust website tailored for a prospective construction company client. With intuitive navigation and responsive design, users can seamlessly explore the client's services, portfolio, and expertise.",
     src: "businessTemplate.jpg",
     url: "https://business-template-delta.vercel.app/",
-    color: "#fb8b24",
+    color: "#5f0f40",
   },
   {
     title: "Rizzazzle Repairs",
@@ -29,7 +37,7 @@ export const projects = [
       "Streamlined website for a repair business, making it easy for customers to find services and schedule appointments. Trustworthy testimonials and past repair showcases reinforce client expertise and reliability.",
     src: "rizazzleRepairs.jpg",
     url: "https://tubular-otter-2c0182.netlify.app/",
-    color: "#5f0f40",
+    color: "#e36414",
   },
   {
     title: "MVRBLE",
@@ -37,7 +45,7 @@ export const projects = [
       "Discover the timeless elegance of marble on our website, crafted for prospective clients in ecommerce businesses.",
     src: "MVRBLE.jpg",
     url: "https://benevolent-douhua-e729e4.netlify.app/",
-    color: "#e36414",
+    color: "#0f4c5c",
   },
 ];
 
