@@ -40,7 +40,7 @@ const Card = ({
 
           <div className={styles.imageContainer}>
             <div className={styles.inner}>
-              <Image fill src={`/images/${src}`} alt="image" />
+              <Image fill src={`/images/${src}`} alt="image" priority />
             </div>
           </div>
         </div>
