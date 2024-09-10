@@ -29,8 +29,13 @@ const Form = () => {
       accept-charset="UTF-8"
       className={styles.body}
     >
-      <div className={styles.phone}>
-        <a href="tel:+7209685664">720-968-5664</a>
+      <div className={styles.contCont}>
+        <div className={styles.phone}>
+          <a href="tel:+7209685664">720-968-5664</a>
+        </div>
+        <div className={styles.mail}>
+          <a href="mailto:info@servaldesigns.com">info@servaldesigns.com</a>
+        </div>
       </div>
       <div className={styles.cont}>
         <div className={styles.left}>

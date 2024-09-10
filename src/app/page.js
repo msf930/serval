@@ -170,8 +170,8 @@ export default function Home() {
                               </div>
                             </div>
                             <p>
-                              At Serval, we&apos;re more than just a web
-                              development company - we&apos;re architects of
+                              At Serval Designs LLC, we&apos;re more than just a
+                              web development company - we&apos;re architects of
                               digital transformation. Our mission is to empower
                               businesses of all sizes to thrive in the digital
                               landscape through innovative web solutions that
@@ -270,8 +270,8 @@ export default function Home() {
                                 </li>
                                 <li className="mb-1">
                                   <p>
-                                    To Email Serval Designs please send email to
-                                    msf930@gmail.com
+                                    To Email Serval Designs please send email
+                                    to: info@servaldesigns.com
                                   </p>
                                 </li>
                               </ul>

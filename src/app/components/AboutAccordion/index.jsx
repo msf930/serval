@@ -88,8 +88,11 @@ const AboutAccordion = () => {
               <li className="mb-1">
                 <p>
                   To Email Serval Designs please send email to{" "}
-                  <a className={styles.link} href="mailto:msf930@gmail.com">
-                    msf930@gmail.com
+                  <a
+                    className={styles.link}
+                    href="mailto:info@servaldesigns.com"
+                  >
+                    info@servaldesigns.com
                   </a>
                 </p>
               </li>

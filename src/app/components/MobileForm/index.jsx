@@ -29,10 +29,16 @@ const MobileForm = () => {
       accept-charset="UTF-8"
       className={styles.body}
     >
-      <div className={styles.phone}>
-        <a href="tel:+7209685664">720-968-5664</a>
+      <div className={styles.contCont}>
+        <div className={styles.phone}>
+          <a href="tel:+7209685664">720-968-5664</a>
+        </div>
+        <div className={styles.mail}>
+          <a href="mailto:info@servaldesigns.com">info@servaldesigns.com</a>
+        </div>
       </div>
       <div className={styles.cont}>
+        <div className={styles.spacer}></div>
         <div className={styles.left}>
           <div className={styles.section}>
             <label for="name" className={styles.label}>
@@ -87,9 +93,9 @@ const MobileForm = () => {
             />
           </div>
         </div>
-      </div>
-      <div className={styles.submitCont}>
-        <input type="submit" value="Submit" className={styles.submit}></input>
+        <div className={styles.submitCont}>
+          <input type="submit" value="Submit" className={styles.submit}></input>
+        </div>
       </div>
     </form>
   );

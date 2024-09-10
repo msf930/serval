@@ -195,10 +195,16 @@ $borderColor: DimGray;
     margin-top: 15px;
   }
   .content {
-    display: none;
+    display: flex;
+    flex-direction: column;
+
+    width: auto;
+  }
+  .aboutAccordian {
+    width: 100vw;
   }
   .content2 {
-    display: flex;
+    display: none;
     flex-direction: row;
     width: 80vw;
   }
@@ -212,7 +218,8 @@ $borderColor: DimGray;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35%;
+    width: 100%;
+    padding: 20px 0;
   }
 
   .aboutWikiInfo {
@@ -221,7 +228,7 @@ $borderColor: DimGray;
     color: black;
     border: 1px solid $borderColor;
     padding: 0;
-    width: 90%;
+    width: 55%;
     background-color: #00000022;
   }
   .aboutWikiInfo h3 {
@@ -283,6 +290,7 @@ $borderColor: DimGray;
 
   .aboutWikiText {
     padding: 0 10px;
+    padding-bottom: 20px;
   }
 
   .bottom {

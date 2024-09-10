@@ -129,7 +129,9 @@ export default function About() {
               digital presence.
             </p>
           </div>
-          <AboutAccordion />
+          <div lassName={styles.aboutAccordian}>
+            <AboutAccordion />
+          </div>
         </div>
         <div className={styles.content2}>
           <div className={styles.content2Cont}>
@@ -160,6 +162,7 @@ export default function About() {
                 digital presence.
               </p>
             </div>
+            <AboutAccordion />
           </div>
 
           <div className={styles.aboutWikiInfoContainer}>

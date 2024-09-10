@@ -6,7 +6,7 @@ import ThemeColorManager from "./components/ThemeColorManager";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Serval Designs",
+  title: "Serval Designs LLC",
   description:
     "Innovative web development company using the latest technologies to build stunning, high-performance websites. Specializing in e-commerce, mobile apps, and SEO. Let us bring your vision to life. Get in touch today!",
 };

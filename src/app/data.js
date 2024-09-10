@@ -1,10 +1,18 @@
 export const projects = [
   {
+    title: "Realm Chiropractic",
+    description:
+      "A professional and user-friendly website designed specifically for a chiropractor, highlighting their services and commitment to patient care.",
+    src: "realm.png",
+    url: "https://realm-chiropractic.vercel.app",
+    color: "#e36414",
+  },
+  {
     title: "Savvy. B Studio & Collective",
     description:
       "Explore our user-friendly website to find and book the perfect modern salon rental space, complete with amenities and flexible terms to meet all your professional needs.",
     src: "savvyB.png",
-    url: "https://savvyb-five.vercel.app/",
+    url: "https://www.savvybcollective.com",
     color: "#0f4c5c",
   },
   {
