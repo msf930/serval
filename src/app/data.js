@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Making the Cut",
+    description:
+        "Making the Cut delivers exceptional landscaping services transform outdoor spaces into stunning, tailored landscapes.",
+    src: "makingTheCut.png",
+    url: "https://makingthecut.vercel.app",
+    color: "#fb8b24",
+  },
+  {
     title: "Envision Admin Services LLC",
     description:
       "Envision Admin Services LLC provides reliable and efficient payroll and administration services.",
@@ -54,15 +62,8 @@ export const projects = [
     src: "rizazzleRepairs.jpg",
     url: "https://tubular-otter-2c0182.netlify.app/",
     color: "#e36414",
-  },
-  {
-    title: "MVRBLE",
-    description:
-      "Discover the timeless elegance of marble on our website, crafted for prospective clients in ecommerce businesses.",
-    src: "MVRBLE.jpg",
-    url: "https://benevolent-douhua-e729e4.netlify.app/",
-    color: "#0f4c5c",
-  },
+  }
+
 ];
 
 export const numbers = [
